@@ -1,0 +1,742 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3B0D11D3237367A4008F6226 /* NoisilyDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B0D11D2237367A4008F6226 /* NoisilyDetailViewController.swift */; };
+		3BD35BE0237320A800B04BF8 /* fire.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 3BD35BD4237320A700B04BF8 /* fire.mp3 */; };
+		3BD35BE1237320A800B04BF8 /* thunderstorm.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 3BD35BD5237320A700B04BF8 /* thunderstorm.mp3 */; };
+		3BD35BE2237320A800B04BF8 /* birds_in_rain.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 3BD35BD6237320A700B04BF8 /* birds_in_rain.mp3 */; };
+		3BD35BE3237320A800B04BF8 /* brown.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 3BD35BD7237320A700B04BF8 /* brown.mp3 */; };
+		3BD35BE4237320A800B04BF8 /* car.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 3BD35BD8237320A700B04BF8 /* car.mp3 */; };
+		3BD35BE5237320A800B04BF8 /* night.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 3BD35BD9237320A700B04BF8 /* night.mp3 */; };
+		3BD35BE6237320A800B04BF8 /* pink.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 3BD35BDA237320A700B04BF8 /* pink.mp3 */; };
+		3BD35BE7237320A800B04BF8 /* leaves.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 3BD35BDB237320A700B04BF8 /* leaves.mp3 */; };
+		3BD35BE8237320A800B04BF8 /* fan.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 3BD35BDC237320A700B04BF8 /* fan.mp3 */; };
+		3BD35BE9237320A800B04BF8 /* morning.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 3BD35BDD237320A700B04BF8 /* morning.mp3 */; };
+		3BD35BEA237320A800B04BF8 /* coffee.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 3BD35BDE237320A700B04BF8 /* coffee.mp3 */; };
+		3BD35BEB237320A800B04BF8 /* rain.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 3BD35BDF237320A700B04BF8 /* rain.mp3 */; };
+		3BD35BED237320C800B04BF8 /* white.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 3BD35BEC237320C800B04BF8 /* white.mp3 */; };
+		3BE25BA82371DA50008C8515 /* AudioTabelCellView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BE25BA72371DA50008C8515 /* AudioTabelCellView.swift */; };
+		C7200CDD21600C940012A3F0 /* NoisilyShortcutCreator.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7200CDC21600C940012A3F0 /* NoisilyShortcutCreator.swift */; };
+		C7200CDF216020B80012A3F0 /* IntentParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7200CDE216020B80012A3F0 /* IntentParser.swift */; };
+		C727661321573D0100D9D18D /* Intents.intentdefinition in Sources */ = {isa = PBXBuildFile; fileRef = C727661221573D0100D9D18D /* Intents.intentdefinition */; };
+		C76AEC101EA5A441005CA0AF /* NoisilyMainPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = C76AEC0F1EA5A441005CA0AF /* NoisilyMainPresenter.swift */; };
+		C7D786081E9A943E004448A2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7D786071E9A943E004448A2 /* AppDelegate.swift */; };
+		C7D7860A1E9A943E004448A2 /* NoisilyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7D786091E9A943E004448A2 /* NoisilyViewController.swift */; };
+		C7D7860D1E9A943E004448A2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C7D7860B1E9A943E004448A2 /* Main.storyboard */; };
+		C7D7860F1E9A943E004448A2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C7D7860E1E9A943E004448A2 /* Assets.xcassets */; };
+		C7D786121E9A943E004448A2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C7D786101E9A943E004448A2 /* LaunchScreen.storyboard */; };
+		C7D7861D1E9A943E004448A2 /* White_NoiseTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7D7861C1E9A943E004448A2 /* White_NoiseTests.swift */; };
+		C7D786281E9A943E004448A2 /* White_NoiseUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7D786271E9A943E004448A2 /* White_NoiseUITests.swift */; };
+		F7FDF8D9AC53F22FDFBAB4C9 /* Pods_Noisily.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0E25A936C43A9CB95E1C04E8 /* Pods_Noisily.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C7D786191E9A943E004448A2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C7D785FC1E9A943D004448A2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C7D786031E9A943E004448A2;
+			remoteInfo = "White Noise";
+		};
+		C7D786241E9A943E004448A2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C7D785FC1E9A943D004448A2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C7D786031E9A943E004448A2;
+			remoteInfo = "White Noise";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0E25A936C43A9CB95E1C04E8 /* Pods_Noisily.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Noisily.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3B0D11D2237367A4008F6226 /* NoisilyDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoisilyDetailViewController.swift; sourceTree = "<group>"; };
+		3BD35BD4237320A700B04BF8 /* fire.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = fire.mp3; sourceTree = "<group>"; };
+		3BD35BD5237320A700B04BF8 /* thunderstorm.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = thunderstorm.mp3; sourceTree = "<group>"; };
+		3BD35BD6237320A700B04BF8 /* birds_in_rain.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = birds_in_rain.mp3; sourceTree = "<group>"; };
+		3BD35BD7237320A700B04BF8 /* brown.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = brown.mp3; sourceTree = "<group>"; };
+		3BD35BD8237320A700B04BF8 /* car.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = car.mp3; sourceTree = "<group>"; };
+		3BD35BD9237320A700B04BF8 /* night.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = night.mp3; sourceTree = "<group>"; };
+		3BD35BDA237320A700B04BF8 /* pink.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = pink.mp3; sourceTree = "<group>"; };
+		3BD35BDB237320A700B04BF8 /* leaves.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = leaves.mp3; sourceTree = "<group>"; };
+		3BD35BDC237320A700B04BF8 /* fan.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = fan.mp3; sourceTree = "<group>"; };
+		3BD35BDD237320A700B04BF8 /* morning.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = morning.mp3; sourceTree = "<group>"; };
+		3BD35BDE237320A700B04BF8 /* coffee.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = coffee.mp3; sourceTree = "<group>"; };
+		3BD35BDF237320A700B04BF8 /* rain.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = rain.mp3; sourceTree = "<group>"; };
+		3BD35BEC237320C800B04BF8 /* white.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = white.mp3; sourceTree = "<group>"; };
+		3BE25BA72371DA50008C8515 /* AudioTabelCellView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AudioTabelCellView.swift; sourceTree = "<group>"; };
+		7D732A90173C42D14895F60C /* Pods-Noisily.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Noisily.release.xcconfig"; path = "Target Support Files/Pods-Noisily/Pods-Noisily.release.xcconfig"; sourceTree = "<group>"; };
+		84C25B90379D35ED88612DD2 /* Pods-Noisily.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Noisily.debug.xcconfig"; path = "Target Support Files/Pods-Noisily/Pods-Noisily.debug.xcconfig"; sourceTree = "<group>"; };
+		C7200CDC21600C940012A3F0 /* NoisilyShortcutCreator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoisilyShortcutCreator.swift; sourceTree = "<group>"; };
+		C7200CDE216020B80012A3F0 /* IntentParser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntentParser.swift; sourceTree = "<group>"; };
+		C727661221573D0100D9D18D /* Intents.intentdefinition */ = {isa = PBXFileReference; lastKnownFileType = file.intentdefinition; path = Intents.intentdefinition; sourceTree = "<group>"; };
+		C76AEC0F1EA5A441005CA0AF /* NoisilyMainPresenter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NoisilyMainPresenter.swift; sourceTree = "<group>"; };
+		C79C62CC1EE77EC800D6B9E2 /* White Noise.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "White Noise.entitlements"; sourceTree = "<group>"; };
+		C7D786041E9A943E004448A2 /* Noisily.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Noisily.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C7D786071E9A943E004448A2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		C7D786091E9A943E004448A2 /* NoisilyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoisilyViewController.swift; sourceTree = "<group>"; };
+		C7D7860C1E9A943E004448A2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C7D7860E1E9A943E004448A2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C7D786111E9A943E004448A2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C7D786131E9A943E004448A2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C7D786181E9A943E004448A2 /* White NoiseTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "White NoiseTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C7D7861C1E9A943E004448A2 /* White_NoiseTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = White_NoiseTests.swift; sourceTree = "<group>"; };
+		C7D7861E1E9A943E004448A2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C7D786231E9A943E004448A2 /* White NoiseUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "White NoiseUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C7D786271E9A943E004448A2 /* White_NoiseUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = White_NoiseUITests.swift; sourceTree = "<group>"; };
+		C7D786291E9A943E004448A2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C7D786011E9A943E004448A2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F7FDF8D9AC53F22FDFBAB4C9 /* Pods_Noisily.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C7D786151E9A943E004448A2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C7D786201E9A943E004448A2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3BD35BBB2373205400B04BF8 /* tracks */ = {
+			isa = PBXGroup;
+			children = (
+				3BD35BEC237320C800B04BF8 /* white.mp3 */,
+				3BD35BD6237320A700B04BF8 /* birds_in_rain.mp3 */,
+				3BD35BD7237320A700B04BF8 /* brown.mp3 */,
+				3BD35BD8237320A700B04BF8 /* car.mp3 */,
+				3BD35BDE237320A700B04BF8 /* coffee.mp3 */,
+				3BD35BDC237320A700B04BF8 /* fan.mp3 */,
+				3BD35BD4237320A700B04BF8 /* fire.mp3 */,
+				3BD35BDB237320A700B04BF8 /* leaves.mp3 */,
+				3BD35BDD237320A700B04BF8 /* morning.mp3 */,
+				3BD35BD9237320A700B04BF8 /* night.mp3 */,
+				3BD35BDA237320A700B04BF8 /* pink.mp3 */,
+				3BD35BDF237320A700B04BF8 /* rain.mp3 */,
+				3BD35BD5237320A700B04BF8 /* thunderstorm.mp3 */,
+			);
+			path = tracks;
+			sourceTree = "<group>";
+		};
+		559E1528A80BF535323F159F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				84C25B90379D35ED88612DD2 /* Pods-Noisily.debug.xcconfig */,
+				7D732A90173C42D14895F60C /* Pods-Noisily.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		C79C62CD1EE77EC800D6B9E2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0E25A936C43A9CB95E1C04E8 /* Pods_Noisily.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C7D785FB1E9A943D004448A2 = {
+			isa = PBXGroup;
+			children = (
+				C7D786061E9A943E004448A2 /* White Noise */,
+				C7D7861B1E9A943E004448A2 /* White NoiseTests */,
+				C7D786261E9A943E004448A2 /* White NoiseUITests */,
+				C7D786051E9A943E004448A2 /* Products */,
+				C79C62CD1EE77EC800D6B9E2 /* Frameworks */,
+				559E1528A80BF535323F159F /* Pods */,
+			);
+			sourceTree = "<group>";
+		};
+		C7D786051E9A943E004448A2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C7D786041E9A943E004448A2 /* Noisily.app */,
+				C7D786181E9A943E004448A2 /* White NoiseTests.xctest */,
+				C7D786231E9A943E004448A2 /* White NoiseUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C7D786061E9A943E004448A2 /* White Noise */ = {
+			isa = PBXGroup;
+			children = (
+				3BD35BBB2373205400B04BF8 /* tracks */,
+				C79C62CC1EE77EC800D6B9E2 /* White Noise.entitlements */,
+				C7D786071E9A943E004448A2 /* AppDelegate.swift */,
+				C7D786091E9A943E004448A2 /* NoisilyViewController.swift */,
+				3B0D11D2237367A4008F6226 /* NoisilyDetailViewController.swift */,
+				3BE25BA72371DA50008C8515 /* AudioTabelCellView.swift */,
+				C7200CDE216020B80012A3F0 /* IntentParser.swift */,
+				C7200CDC21600C940012A3F0 /* NoisilyShortcutCreator.swift */,
+				C76AEC0F1EA5A441005CA0AF /* NoisilyMainPresenter.swift */,
+				C727661221573D0100D9D18D /* Intents.intentdefinition */,
+				C7D7860B1E9A943E004448A2 /* Main.storyboard */,
+				C7D7860E1E9A943E004448A2 /* Assets.xcassets */,
+				C7D786101E9A943E004448A2 /* LaunchScreen.storyboard */,
+				C7D786131E9A943E004448A2 /* Info.plist */,
+			);
+			path = "White Noise";
+			sourceTree = "<group>";
+		};
+		C7D7861B1E9A943E004448A2 /* White NoiseTests */ = {
+			isa = PBXGroup;
+			children = (
+				C7D7861C1E9A943E004448A2 /* White_NoiseTests.swift */,
+				C7D7861E1E9A943E004448A2 /* Info.plist */,
+			);
+			path = "White NoiseTests";
+			sourceTree = "<group>";
+		};
+		C7D786261E9A943E004448A2 /* White NoiseUITests */ = {
+			isa = PBXGroup;
+			children = (
+				C7D786271E9A943E004448A2 /* White_NoiseUITests.swift */,
+				C7D786291E9A943E004448A2 /* Info.plist */,
+			);
+			path = "White NoiseUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C7D786031E9A943E004448A2 /* Noisily */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C7D7862C1E9A943E004448A2 /* Build configuration list for PBXNativeTarget "Noisily" */;
+			buildPhases = (
+				2FF2B1FF682BB6B6E5D1BFD5 /* [CP] Check Pods Manifest.lock */,
+				C7D786001E9A943E004448A2 /* Sources */,
+				C7D786011E9A943E004448A2 /* Frameworks */,
+				C7D786021E9A943E004448A2 /* Resources */,
+				7F54D45790A2F231DC6E2A99 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Noisily;
+			productName = "White Noise";
+			productReference = C7D786041E9A943E004448A2 /* Noisily.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C7D786171E9A943E004448A2 /* White NoiseTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C7D7862F1E9A943E004448A2 /* Build configuration list for PBXNativeTarget "White NoiseTests" */;
+			buildPhases = (
+				C7D786141E9A943E004448A2 /* Sources */,
+				C7D786151E9A943E004448A2 /* Frameworks */,
+				C7D786161E9A943E004448A2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C7D7861A1E9A943E004448A2 /* PBXTargetDependency */,
+			);
+			name = "White NoiseTests";
+			productName = "White NoiseTests";
+			productReference = C7D786181E9A943E004448A2 /* White NoiseTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		C7D786221E9A943E004448A2 /* White NoiseUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C7D786321E9A943E004448A2 /* Build configuration list for PBXNativeTarget "White NoiseUITests" */;
+			buildPhases = (
+				C7D7861F1E9A943E004448A2 /* Sources */,
+				C7D786201E9A943E004448A2 /* Frameworks */,
+				C7D786211E9A943E004448A2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C7D786251E9A943E004448A2 /* PBXTargetDependency */,
+			);
+			name = "White NoiseUITests";
+			productName = "White NoiseUITests";
+			productReference = C7D786231E9A943E004448A2 /* White NoiseUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C7D785FC1E9A943D004448A2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 1000;
+				ORGANIZATIONNAME = "David Albers";
+				TargetAttributes = {
+					C7D786031E9A943E004448A2 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = R37L87S852;
+						LastSwiftMigration = 0900;
+						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+							com.apple.InterAppAudio = {
+								enabled = 0;
+							};
+							com.apple.Siri = {
+								enabled = 1;
+							};
+						};
+					};
+					C7D786171E9A943E004448A2 = {
+						CreatedOnToolsVersion = 8.2.1;
+						LastSwiftMigration = 0900;
+						ProvisioningStyle = Automatic;
+						TestTargetID = C7D786031E9A943E004448A2;
+					};
+					C7D786221E9A943E004448A2 = {
+						CreatedOnToolsVersion = 8.2.1;
+						LastSwiftMigration = 0900;
+						ProvisioningStyle = Automatic;
+						TestTargetID = C7D786031E9A943E004448A2;
+					};
+				};
+			};
+			buildConfigurationList = C7D785FF1E9A943E004448A2 /* Build configuration list for PBXProject "White Noise" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				English,
+				en,
+				Base,
+			);
+			mainGroup = C7D785FB1E9A943D004448A2;
+			productRefGroup = C7D786051E9A943E004448A2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C7D786031E9A943E004448A2 /* Noisily */,
+				C7D786171E9A943E004448A2 /* White NoiseTests */,
+				C7D786221E9A943E004448A2 /* White NoiseUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C7D786021E9A943E004448A2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3BD35BEB237320A800B04BF8 /* rain.mp3 in Resources */,
+				3BD35BE9237320A800B04BF8 /* morning.mp3 in Resources */,
+				3BD35BE2237320A800B04BF8 /* birds_in_rain.mp3 in Resources */,
+				3BD35BE1237320A800B04BF8 /* thunderstorm.mp3 in Resources */,
+				3BD35BE5237320A800B04BF8 /* night.mp3 in Resources */,
+				3BD35BE7237320A800B04BF8 /* leaves.mp3 in Resources */,
+				3BD35BE4237320A800B04BF8 /* car.mp3 in Resources */,
+				3BD35BE0237320A800B04BF8 /* fire.mp3 in Resources */,
+				3BD35BED237320C800B04BF8 /* white.mp3 in Resources */,
+				C7D786121E9A943E004448A2 /* LaunchScreen.storyboard in Resources */,
+				C7D7860F1E9A943E004448A2 /* Assets.xcassets in Resources */,
+				3BD35BEA237320A800B04BF8 /* coffee.mp3 in Resources */,
+				3BD35BE8237320A800B04BF8 /* fan.mp3 in Resources */,
+				C7D7860D1E9A943E004448A2 /* Main.storyboard in Resources */,
+				3BD35BE6237320A800B04BF8 /* pink.mp3 in Resources */,
+				3BD35BE3237320A800B04BF8 /* brown.mp3 in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C7D786161E9A943E004448A2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C7D786211E9A943E004448A2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2FF2B1FF682BB6B6E5D1BFD5 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Noisily-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7F54D45790A2F231DC6E2A99 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Noisily/Pods-Noisily-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/SoundWave/SoundWave.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SoundWave.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Noisily/Pods-Noisily-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C7D786001E9A943E004448A2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C7D7860A1E9A943E004448A2 /* NoisilyViewController.swift in Sources */,
+				C76AEC101EA5A441005CA0AF /* NoisilyMainPresenter.swift in Sources */,
+				C7200CDF216020B80012A3F0 /* IntentParser.swift in Sources */,
+				C727661321573D0100D9D18D /* Intents.intentdefinition in Sources */,
+				C7D786081E9A943E004448A2 /* AppDelegate.swift in Sources */,
+				3BE25BA82371DA50008C8515 /* AudioTabelCellView.swift in Sources */,
+				C7200CDD21600C940012A3F0 /* NoisilyShortcutCreator.swift in Sources */,
+				3B0D11D3237367A4008F6226 /* NoisilyDetailViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C7D786141E9A943E004448A2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C7D7861D1E9A943E004448A2 /* White_NoiseTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C7D7861F1E9A943E004448A2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C7D786281E9A943E004448A2 /* White_NoiseUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C7D7861A1E9A943E004448A2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C7D786031E9A943E004448A2 /* Noisily */;
+			targetProxy = C7D786191E9A943E004448A2 /* PBXContainerItemProxy */;
+		};
+		C7D786251E9A943E004448A2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C7D786031E9A943E004448A2 /* Noisily */;
+			targetProxy = C7D786241E9A943E004448A2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C7D7860B1E9A943E004448A2 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C7D7860C1E9A943E004448A2 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C7D786101E9A943E004448A2 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C7D786111E9A943E004448A2 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C7D7862A1E9A943E004448A2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C7D7862B1E9A943E004448A2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C7D7862D1E9A943E004448A2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 84C25B90379D35ED88612DD2 /* Pods-Noisily.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "White Noise/White Noise.entitlements";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = R37L87S852;
+				INFOPLIST_FILE = "White Noise/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.mindset.noisily;
+				PRODUCT_NAME = Noisily;
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C7D7862E1E9A943E004448A2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7D732A90173C42D14895F60C /* Pods-Noisily.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "White Noise/White Noise.entitlements";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = R37L87S852;
+				INFOPLIST_FILE = "White Noise/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.mindset.noisily;
+				PRODUCT_NAME = Noisily;
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		C7D786301E9A943E004448A2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "White NoiseTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.dalbers.White-NoiseTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
+				SWIFT_VERSION = 4.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/White Noise.app/White Noise";
+			};
+			name = Debug;
+		};
+		C7D786311E9A943E004448A2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "White NoiseTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.dalbers.White-NoiseTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
+				SWIFT_VERSION = 4.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/White Noise.app/White Noise";
+			};
+			name = Release;
+		};
+		C7D786331E9A943E004448A2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = "White NoiseUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.dalbers.White-NoiseUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
+				SWIFT_VERSION = 4.0;
+				TEST_TARGET_NAME = "White Noise";
+			};
+			name = Debug;
+		};
+		C7D786341E9A943E004448A2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = "White NoiseUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.dalbers.White-NoiseUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
+				SWIFT_VERSION = 4.0;
+				TEST_TARGET_NAME = "White Noise";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C7D785FF1E9A943E004448A2 /* Build configuration list for PBXProject "White Noise" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C7D7862A1E9A943E004448A2 /* Debug */,
+				C7D7862B1E9A943E004448A2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C7D7862C1E9A943E004448A2 /* Build configuration list for PBXNativeTarget "Noisily" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C7D7862D1E9A943E004448A2 /* Debug */,
+				C7D7862E1E9A943E004448A2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C7D7862F1E9A943E004448A2 /* Build configuration list for PBXNativeTarget "White NoiseTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C7D786301E9A943E004448A2 /* Debug */,
+				C7D786311E9A943E004448A2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C7D786321E9A943E004448A2 /* Build configuration list for PBXNativeTarget "White NoiseUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C7D786331E9A943E004448A2 /* Debug */,
+				C7D786341E9A943E004448A2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C7D785FC1E9A943D004448A2 /* Project object */;
+}
